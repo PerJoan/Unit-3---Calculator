@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Per Joan Code</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet for calculator.css">
+</head>
+
+<body>
+
+<div>
+<FORM NAME="Calc">
+<TABLE BORDER=20>
+
+<p> </p>
+<TR>
+<TD>
+<img class="c" src="lotus2.jpg"> 
+<INPUT style="background-color: yellow; border-radius: 20px; height: 40px; text-align: center;" TYPE="text"   NAME="Input" Size="100%" id="yellow">
+<TR>
+<TD style= "background-color: lightgreen; height: 250px;">
+<INPUT TYPE="button" NAME="one"   VALUE="  1  " OnClick="Calc.Input.value += '1'">
+<INPUT TYPE="button" NAME="two"   VALUE="  2  " OnCLick="Calc.Input.value += '2'">
+<INPUT TYPE="button" NAME="three" VALUE="  3  " OnCLick="Calc.Input.value += '3'">
+<INPUT TYPE="button" NAME="four"  VALUE="  4  " OnCLick="Calc.Input.value += '4'">
+<INPUT TYPE="button" NAME="five"  VALUE="  5  " OnCLick="Calc.Input.value += '5'">
+<br>
+
+
+<INPUT TYPE="button" NAME="minus"  VALUE="  -  " OnClick="Calc.Input.value += ' - '">
+
+<div>
+<button onclick="document.getElementById('myImage').src='crying face.jpg'">Let's Pray</button>
+<img id="myImage" src="hopeful face.jpg" style="width:100px">
+<button onclick="document.getElementById('myImage').src='hopeful face.jpg'">Dry My Tears</button></div>
+
+<INPUT TYPE="button" NAME="divide"   VALUE="  /  " OnCLick="Calc.Input.value += '/'">
+<br>
+
+
+<INPUT TYPE="button" NAME="plus"  VALUE="  +  " OnClick="Calc.Input.value += ' + '">
+<INPUT TYPE="button" NAME="two"   VALUE="  Clear  " OnCLick="Calc.Input.value = ''">
+<INPUT TYPE="button" NAME="DoIt"  VALUE="  Enter " OnClick="Calc.Input.value = eval(Calc.Input.value)">
+<INPUT TYPE="button" NAME="two"   VALUE="  Delete " OnCLick="Calc.Input.value =Calc.Input.value.slice(0, Calc.Input.value.length-1)">
+<INPUT TYPE="button" NAME="multiply"  VALUE="  *  " OnClick="Calc.Input.value += ' * '">
+<br>
+
+<INPUT TYPE="button" NAME="six"   VALUE="  6  " OnClick="Calc.Input.value += '6'"> 
+<INPUT TYPE="button" NAME="seven"   VALUE="  7  " OnCLick="Calc.Input.value += '7'">
+<INPUT TYPE="button" NAME="eight"   VALUE="  8  " OnCLick="Calc.Input.value += '8'">
+<INPUT TYPE="button" NAME="nine"   VALUE="  9  " OnCLick="Calc.Input.value += '9'">
+<INPUT TYPE="button" NAME="zero"   VALUE="  0  " OnCLick="Calc.Input.value += '0'">
+<br>
+
+<INPUT TYPE="button" NAME="button"   VALUE="  average  " OnClick="getAverage()"> 
+
+</TD>
+</TR>
+</TABLE>
+</FORM>
+</div>
+
+
+</body>
+<script>
+function getAverage() {
+	var numsString = document.getElementById("yellow").value;
+	var numsArray = numsString.split("+")
+	var i = 0;
+	var sum = 0;
+	while (i < numsArray.length) {
+		sum = sum + Number(numsArray[i]);
+		i = i + 1;
+	}
+
+	var average = sum / numsArray.length;
+	document.getElementById("yellow").value = average;
+}
+</script>
+</html>
+
+<button onclick="document.getElementById('myImage').src='crying face.jpg'">Let's Pray</button>
+<img id="myImage" src="" style="width:100px">
+<button onclick="document.getElementById('myImage').src='hopeful face.jpg'">Dry My Tears</button>
+
+<!--
+<INPUT TYPE="button" onclick="document.getElementById('flower').innerHTML='<img width="35px" heigth="15px" src="flower1.png'">Click Me!</button>
+<br>
+
+
+<button onclick="document.getElementById('myImage').src='crying face.jpg'">Let's Pray</button>
+<img id="myImage" src="hopeful face.jpg" style="width:100px">
+<button onclick="document.getElementById('myImage').src='hopeful face.jpg'">Dry My Tears</button>
+
+
+<span>
+<button onclick="document.getElementById('flower').src='flower1.png'">Pick</button>
+<img id="flower" width="35px" heigth="15px" src="flower2.png">
+<button onclick="document.getElementById('flower').src='Flower2.png'">Me</button>
+</span>

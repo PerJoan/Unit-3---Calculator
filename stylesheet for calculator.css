@@ -1,0 +1,44 @@
+html {/*
+	background: url("http://static.boredpanda.com/blog/wp-content/uploads/2014/05/flowers-look-like-animals-people-monkeys-orchids-pareidolia-30.jpg");
+*/  background-image: src=
+	background-size: cover;
+
+
+}
+
+body {
+	padding: px;
+	margin: 0 auto;
+	margin-top: 100px;
+	background-color: salmon;
+	
+}
+
+f
+form {
+	text-align: center;
+	
+
+}
+
+table {
+	height: 250px;
+	width: 650px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: px;
+	margin-right: 200px;
+	
+	background-color: ;
+}
+
+tr {
+
+}
+
+.c {
+	size: 50%;
+}
+#test{
+	 src:"lotus2.jpg";
+}
