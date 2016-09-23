@@ -34,9 +34,8 @@ table {
 	text-align: center;
 	margin: 0 auto;
 	margin-top: px;
-	margin-right: ;
-	
-	background-color: ;
+	font-family: Arial black;
+	font-weight: bold;
 }
 
 tr {
@@ -70,5 +69,36 @@ button {
 	background-color: rgb(255, 255, 102);
 
 }
+@keyframes example {
+    
+    0%   {left:600px; top:0px;}
+    10%  {left:500px; top:200px;}
+    20%  {right:500px; bottom:1000px;}
+    30   {left:500px; top:200px;} 
+    40%  {left:500px; top:200px;}
+    50%  {left:500px; top:200px;}
+    60%  {left:500px; top:200px;}
+    70%  {left:500px; top:200px;}
+    80%	 {left:400px; top:1000px;}
+    90%	 {right: 200px; bottom: 200px;}	
+    100% {left:0px; top:400px;}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
 
- 
+span{
+	position:relative;
+	animation-name: example;
+    animation-duration: 4s;
+
+}
