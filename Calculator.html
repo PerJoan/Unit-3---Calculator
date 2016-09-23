@@ -3,9 +3,12 @@
 <head>
 	<title>Per Joan Code</title>
 	<link rel="stylesheet" type="text/css" href="stylesheet for calculator.css">
+	
 </head>
 
 <body>
+
+<h1 style="font-family: luminari; text-align: center; letter-spacing: 5px; text-transform: uppercase;">Per Joan Code</h1><br>
 
 <div>
 <FORM NAME="Calc">
@@ -15,50 +18,53 @@
 <TR>
 <TD>
 <img class="c" src="lotus2.jpg"> 
-<INPUT style="background-color: yellow; border-radius: 20px; height: 40px; text-align: center;" TYPE="text"   NAME="Input" Size="100%" id="yellow">
+<INPUT style="background-color: rgb(255, 255, 0); border-radius: 20px; height: 40px; font-size: 14px; font-family:luminari; text-align: center;" placeholder="&#9884;Before You Calculate, You Must Imagine Smelling The Flowers!&#9884;" TYPE="text"   NAME="Input" Size="100%" id="yellow">
+
+
 <TR>
-<TD style= "background-color: lightgreen; height: 250px;">
+<TD style= "background: -webkit-linear-gradient(bottom, rgba(0, 51, 0, 1), rgba(250,128,114, 0.4)); background-color: lightgreen; height: 250px;"><br>
 <INPUT TYPE="button" NAME="one"   VALUE="  1  " OnClick="Calc.Input.value += '1'">
 <INPUT TYPE="button" NAME="two"   VALUE="  2  " OnCLick="Calc.Input.value += '2'">
 <INPUT TYPE="button" NAME="three" VALUE="  3  " OnCLick="Calc.Input.value += '3'">
 <INPUT TYPE="button" NAME="four"  VALUE="  4  " OnCLick="Calc.Input.value += '4'">
 <INPUT TYPE="button" NAME="five"  VALUE="  5  " OnCLick="Calc.Input.value += '5'">
-<br>
+<br><br>
 
+<INPUT TYPE="button" NAME="button"   VALUE="  average  " OnClick="getAverage()"> <br>
 
+<INPUT TYPE="button" NAME="plus"  VALUE="  +  " OnClick="Calc.Input.value += ' + '">
 <INPUT TYPE="button" NAME="minus"  VALUE="  -  " OnClick="Calc.Input.value += ' - '">
 
-
-
-
+ 
 
 
 <INPUT TYPE="button" NAME="divide"   VALUE="  /  " OnCLick="Calc.Input.value += '/'">
+<INPUT TYPE="button" NAME="multiply"  VALUE="  *  " OnClick="Calc.Input.value += ' * '">
 <br>
 
 
-<INPUT TYPE="button" NAME="plus"  VALUE="  +  " OnClick="Calc.Input.value += ' + '">
+
 <INPUT TYPE="button" NAME="two"   VALUE="  Clear  " OnCLick="Calc.Input.value = ''">
 <INPUT TYPE="button" NAME="DoIt"  VALUE="  Enter " OnClick="Calc.Input.value = eval(Calc.Input.value)">
 <INPUT TYPE="button" NAME="two"   VALUE="  Delete " OnCLick="Calc.Input.value =Calc.Input.value.slice(0, Calc.Input.value.length-1)">
-<INPUT TYPE="button" NAME="multiply"  VALUE="  *  " OnClick="Calc.Input.value += ' * '">
-<br>
+
+<br><br>
 
 <INPUT TYPE="button" NAME="six"   VALUE="  6  " OnClick="Calc.Input.value += '6'"> 
 <INPUT TYPE="button" NAME="seven"   VALUE="  7  " OnCLick="Calc.Input.value += '7'">
 <INPUT TYPE="button" NAME="eight"   VALUE="  8  " OnCLick="Calc.Input.value += '8'">
 <INPUT TYPE="button" NAME="nine"   VALUE="  9  " OnCLick="Calc.Input.value += '9'">
 <INPUT TYPE="button" NAME="zero"   VALUE="  0  " OnCLick="Calc.Input.value += '0'">
-<br>
+<br><br>
 
-<INPUT TYPE="button" NAME="button"   VALUE="  average  " OnClick="getAverage()"> 
+
 
 <div>
 
-<img id="myImage" src="flower1.jpg" style="width: 100px; border-radius: 50%; "><br>
+<img id="myImage" src="flower1.jpg" style="width: 100px; border-radius: 50%; "><br><br>
 <button onclick="document.getElementById('myImage').src='hopeful face.jpg'">Hover Over To Smell</button>
 
-<button onclick="document.getElementById('myImage').src='flower1.jpg'">:)</button></div>
+<button onclick="document.getElementById('myImage').src='flower1.jpg'">&#9786;</button></div><br>
 
 
 </TD>
@@ -104,7 +110,7 @@ function getAverage() {
 
 
 <center>
-<button onclick="document.getElementById('myImage').src='flower1.jpg'">:(</button>
+<button onclick="document.getElementById('myImage').src='flower1.jpg'">&#9785;</button>
 <img id="myImage" src="" style="width:">
 <button onclick="document.getElementById('myImage').src='hopeful face.jpg'">This Is The Way I Got It To Work</button><br><br>
 </center>
@@ -118,3 +124,4 @@ function getAverage() {
 <img id="flower" width="35px" heigth="15px" src="Flower2.jpg">
 <button onclick="document.getElementById('flower').src='Flower2.jpg'">Me</button>
 </span>
+

@@ -3,7 +3,12 @@ html {/*
 */  background-image: src=
 	background-size: cover;
 
-
+h1 {
+	font-family: luminari;
+	text-align: ;
+	word-spacing: 
+	letter-spacing;
+}
 
 }
 
@@ -12,6 +17,7 @@ body {
 	margin: 0 auto;
 	margin-top: 100px;
 	background-color: salmon;
+	background: -webkit-linear-gradient(bottom, rgba(250,128,114, 1), rgba(0, 0, 0, 0.3));
 	
 }
 
@@ -50,5 +56,17 @@ tr {
 
 input {
 	padding: 5px;
+	font-family: ;
+
 }
 
+button {
+	padding: 10px;
+	font-style: italic;
+	font-stretch: futura;
+	border-radius: 10%;
+	background-color: rgb(255, 255, 102);
+
+}
+
+ 
