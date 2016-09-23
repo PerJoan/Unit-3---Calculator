@@ -4,6 +4,7 @@ html {/*
 	background-size: cover;
 
 
+
 }
 
 body {
@@ -27,7 +28,7 @@ table {
 	text-align: center;
 	margin: 0 auto;
 	margin-top: px;
-	margin-right: 200px;
+	margin-right: ;
 	
 	background-color: ;
 }
@@ -40,5 +41,14 @@ tr {
 	size: 50%;
 }
 #test{
-	 src:"lotus2.jpg";
+	 src:"lotus2.jpg";	 
 }
+
+.big {
+	padding: 5px;
+}
+
+input {
+	padding: 5px;
+}
+
