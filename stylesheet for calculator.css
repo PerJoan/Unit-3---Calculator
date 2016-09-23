@@ -56,9 +56,11 @@ tr {
 
 input {
 	padding: 5px;
-	font-family: ;
-
+	word-spacing: 5px;
+	letter-spacing: 2px;
 }
+
+
 
 button {
 	padding: 10px;
